@@ -36,6 +36,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+            <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.clickmagick_cmc = {
+                uid: '211584',
+                hid: '618258592',
+                cmc_project: 'TT - 750 CASH OFFER',
+                vid_info: 'on',
+                utm_source: 'organic',
+              };
+            `,
+          }}
+        />
+        <script src="//cdn.clkmc.com/cmc.js"></script>
+      </head>      
       <body className="font-sans antialiased">
         {children}
         <Analytics />
