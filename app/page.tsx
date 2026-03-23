@@ -30,7 +30,7 @@ const steps = [
   {
     number: 3,
     title: "Get Just Eat Credit",
-    description: "Receive your £750 in Just Eat credit instantly.",
+    description: "Receive your £500 in Just Eat credit instantly.",
   },
 ];
 
@@ -70,20 +70,16 @@ export default function JustEatPage() {
 
       {/* Scrollable content with light grey background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
-        {/* Reward Banner */}
-        <div className="bg-primary rounded-2xl p-5 flex items-center justify-between mb-7 shadow-sm">
-          <div>
-            <p className="text-primary-foreground text-2xl font-extrabold leading-tight">
-              £750{" "}
-              <span className="font-semibold">Just Eat Credit</span>
-            </p>
-            <p className="text-primary-foreground/80 text-sm mt-0.5">
-              Just Eat Account Credit
-            </p>
-          </div>
-          <div className="w-11 h-11 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
-            <ShoppingCart className="w-6 h-6 text-white" />
-          </div>
+        {/* Reward Banner - Colorful Gradient Card */}
+        <div className="mb-7 animate-float">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2018.13.46-UsVoGT758IV35iq3xBfOkwjK7tzzVQ.png"
+            alt="£500 Just Eat Credit"
+            width={280}
+            height={160}
+            className="w-full object-contain rounded-3xl shadow-md"
+            unoptimized
+          />
         </div>
 
         {/* Application Process */}
@@ -135,7 +131,7 @@ export default function JustEatPage() {
             delivery platforms to gather customer feedback. As part of our
             current collaboration with Just Eat, participants are invited to
             evaluate services and experiences in exchange for account credit —
-            including our £750 Just Eat Credit reward for qualifying
+            including our £500 Just Eat Credit reward for qualifying
             participants who complete all required steps.
           </p>
         </div>
