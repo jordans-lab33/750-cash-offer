@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-import Script from "next/script"
+
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: '$750 Cash Gift Card - Claim Your Reward | StepReward',
-  description: 'Claim your exclusive $750 cash gift card reward. Available for UK, US, Canada, and Australia residents. Limited time offer!',
-  generator: 'stepreward.com',
+  title: 'Just Eat Reviewer Program — Claim £750 Just Eat Credit',
+  description: 'Apply to become a Just Eat Reviewer. Complete sponsored deals and receive £750 in Just Eat account credit.',
+  generator: 'rewardleap.com',
   icons: {
     icon: [
       {
@@ -36,24 +36,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-            <head>
-        <Script id="cm-config" strategy="beforeInteractive">
-  {`
-    window.clickmagick_cmc = {
-      uid: '211584',
-      hid: '618258592',
-      cmc_project: 'TT - 750 CASH OFFER',
-      vid_info: 'on',
-      utm_source: 'organic',
-    };
-  `}
-</Script>
-
-<Script
-  src="https://cdn.clkmc.com/cmc.js"
-  strategy="afterInteractive"
-/>
-      </head>      
       <body className="font-sans antialiased">
         {children}
         <Analytics />
