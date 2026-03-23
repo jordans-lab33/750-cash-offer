@@ -1,6 +1,7 @@
 "use client";
 
-import { ShoppingCart, HelpCircle, UtensilsCrossed } from "lucide-react";
+import { ShoppingCart, HelpCircle } from "lucide-react";
+import Image from "next/image";
 
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
@@ -44,22 +45,24 @@ export default function JustEatPage() {
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
 
         {/* Logo */}
-        <div className="flex flex-col items-center mb-5">
-          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-3">
-            <UtensilsCrossed className="w-8 h-8 text-primary" strokeWidth={2} />
-          </div>
-          <span className="text-sm font-extrabold tracking-widest text-primary uppercase">
-            Just Eat
-          </span>
+        <div className="flex justify-center mb-5">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2017.48.30-pzNnJCvduAvzmSRyp3GsecwR6HEFrY.png"
+            alt="Just Eat logo"
+            width={140}
+            height={100}
+            className="object-contain"
+            unoptimized
+          />
         </div>
 
         {/* Title */}
         <div className="text-center mb-6">
           <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
-            Just Eat Reviewer Program
+            Unlock Just Eat Rewards
           </h1>
           <p className="text-muted-foreground text-sm">
-            Apply to become a Just Eat Reviewer.
+            {"Here's how to claim your £500 in Just Eat Giftcards"}
           </p>
         </div>
 
