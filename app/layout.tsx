@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-import Script from "next/script"
+
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
@@ -36,24 +36,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-            <head>
-        <Script id="cm-config" strategy="beforeInteractive">
-  {`
-    window.clickmagick_cmc = {
-      uid: '211584',
-      hid: '618258592',
-      cmc_project: 'TT - 750 CASH OFFER',
-      vid_info: 'on',
-      utm_source: 'organic',
-    };
-  `}
-</Script>
-
-<Script
-  src="https://cdn.clkmc.com/cmc.js"
-  strategy="afterInteractive"
-/>
-      </head>      
       <body className="font-sans antialiased">
         {children}
         <Analytics />

@@ -4,7 +4,7 @@ import { Clock, FileText, CheckCircle2, ChevronRight } from "lucide-react";
 
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
-const REDIRECT_URL = "https://trkio.org/aff_c?offer_id=1595&aff_id=147515";
+const REDIRECT_URL = "https://your-link-here.com";
 // ============================================
 
 const steps = [
