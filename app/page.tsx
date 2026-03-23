@@ -41,16 +41,16 @@ export default function JustEatPage() {
 
   return (
     <div className="min-h-screen bg-muted font-sans">
-      {/* White background header section */}
-      <div className="bg-white">
-        <div className="max-w-md mx-auto px-4 pt-8 pb-8">
+      {/* White background header section — shadow on bottom border */}
+      <div className="bg-white shadow-[0_4px_12px_0_rgba(0,0,0,0.08)]">
+        <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
-          <div className="flex justify-center mb-5">
+          <div className="flex justify-center mb-3">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2018.08.23-8DPctmT3n1JD6tCIKSB7KsSL1OWrOm.png"
               alt="Just Eat logo"
-              width={200}
-              height={60}
+              width={180}
+              height={54}
               className="object-contain bg-transparent"
               unoptimized
             />
@@ -71,13 +71,13 @@ export default function JustEatPage() {
       {/* Scrollable content with light grey background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
         {/* Reward Banner - Colorful Gradient Card */}
-        <div className="mb-7 animate-float">
+        <div className="mb-7 animate-float px-6">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2018.13.46-UsVoGT758IV35iq3xBfOkwjK7tzzVQ.png"
             alt="£500 Just Eat Credit"
             width={280}
             height={160}
-            className="w-full object-contain rounded-3xl shadow-md"
+            className="w-full object-contain rounded-3xl shadow-lg"
             unoptimized
           />
         </div>
@@ -142,7 +142,7 @@ export default function JustEatPage() {
         <div className="max-w-md mx-auto">
           <button
             onClick={handleClaim}
-            className="w-full py-4 px-6 bg-secondary hover:opacity-90 text-secondary-foreground font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
+            className="w-full py-4 px-6 bg-primary hover:opacity-90 text-primary-foreground font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
           >
             Claim Just Eat Credit
             <span className="text-lg leading-none">›</span>
