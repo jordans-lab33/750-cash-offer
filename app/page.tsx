@@ -40,32 +40,36 @@ export default function JustEatPage() {
   };
 
   return (
-    <div className="min-h-screen bg-background font-sans">
-      {/* Scrollable content with bottom padding for sticky button */}
+    <div className="min-h-screen bg-muted font-sans">
+      {/* White background header section */}
+      <div className="bg-white">
+        <div className="max-w-md mx-auto px-4 pt-8 pb-8">
+          {/* Logo */}
+          <div className="flex justify-center mb-5">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2017.48.30-pzNnJCvduAvzmSRyp3GsecwR6HEFrY.png"
+              alt="Just Eat logo"
+              width={140}
+              height={100}
+              className="object-contain"
+              unoptimized
+            />
+          </div>
+
+          {/* Title */}
+          <div className="text-center">
+            <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
+              Unlock Just Eat Rewards
+            </h1>
+            <p className="text-muted-foreground text-sm">
+              {"Here's how to claim your £500 in Just Eat Giftcards"}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Scrollable content with light grey background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
-
-        {/* Logo */}
-        <div className="flex justify-center mb-5">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2017.48.30-pzNnJCvduAvzmSRyp3GsecwR6HEFrY.png"
-            alt="Just Eat logo"
-            width={140}
-            height={100}
-            className="object-contain"
-            unoptimized
-          />
-        </div>
-
-        {/* Title */}
-        <div className="text-center mb-6">
-          <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
-            Unlock Just Eat Rewards
-          </h1>
-          <p className="text-muted-foreground text-sm">
-            {"Here's how to claim your £500 in Just Eat Giftcards"}
-          </p>
-        </div>
-
         {/* Reward Banner */}
         <div className="bg-primary rounded-2xl p-5 flex items-center justify-between mb-7 shadow-sm">
           <div>
@@ -109,7 +113,7 @@ export default function JustEatPage() {
         </div>
 
         {/* Program Details Card */}
-        <div className="bg-muted rounded-2xl border border-border p-5">
+        <div className="bg-card rounded-2xl border border-border p-5">
           <div className="flex items-center gap-2 mb-4">
             <HelpCircle className="w-4 h-4 text-muted-foreground" />
             <span className="font-bold text-foreground text-sm">Program Details</span>
