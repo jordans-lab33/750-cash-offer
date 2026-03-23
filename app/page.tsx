@@ -47,10 +47,10 @@ export default function JustEatPage() {
           {/* Logo */}
           <div className="flex justify-center mb-5">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2017.48.30-pzNnJCvduAvzmSRyp3GsecwR6HEFrY.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2018.08.23-8DPctmT3n1JD6tCIKSB7KsSL1OWrOm.png"
               alt="Just Eat logo"
-              width={140}
-              height={100}
+              width={200}
+              height={60}
               className="object-contain bg-transparent"
               unoptimized
             />
