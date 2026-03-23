@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: '$750 Cash Gift Card - Claim Your Reward | StepReward',
-  description: 'Claim your exclusive $750 cash gift card reward. Available for UK, US, Canada, and Australia residents. Limited time offer!',
-  generator: 'stepreward.com',
+  title: 'Just Eat Reviewer Program — Claim £750 Just Eat Credit',
+  description: 'Apply to become a Just Eat Reviewer. Complete sponsored deals and receive £750 in Just Eat account credit.',
+  generator: 'rewardleap.com',
   icons: {
     icon: [
       {

@@ -1,6 +1,6 @@
 "use client";
 
-import { Clock, FileText, CheckCircle2, ChevronRight } from "lucide-react";
+import { ShoppingCart, HelpCircle, UtensilsCrossed } from "lucide-react";
 
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
@@ -9,110 +9,143 @@ const REDIRECT_URL = "https://your-link-here.com";
 
 const steps = [
   {
-    icon: FileText,
-    title: "Step 1 — Enter Basics",
-    description:
-      "Tap continue and submit your email + basic details so we can set up your reward profile.",
+    number: 1,
+    title: "Register as Reviewer",
+    description: (
+      <>
+        Enter your details to{" "}
+        <mark className="bg-orange-100 text-foreground rounded px-0.5">
+          create your reviewer profile.
+        </mark>
+      </>
+    ),
   },
   {
-    icon: CheckCircle2,
-    title: "Step 2 — Complete 3-5 Deals",
+    number: 2,
+    title: "Complete Sponsored Deals",
     description:
-      "Choose quick offers. Each completed deal credits toward your $750 cash payout.",
+      "Complete 3-5 offers minimum. Each deal credits towards your total payout.",
   },
   {
-    icon: Clock,
-    title: "Fast Payout",
-    description:
-      "Finish the required deals and request your payout. Simple as that.",
+    number: 3,
+    title: "Get Just Eat Credit",
+    description: "Receive your £750 in Just Eat credit instantly.",
   },
 ];
 
-export default function CashRewardPage() {
-  const handleContinue = () => {
+export default function JustEatPage() {
+  const handleClaim = () => {
     window.location.href = REDIRECT_URL;
   };
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-4 bg-background">
-      {/* Main Card */}
-      <div className="w-full max-w-md bg-card rounded-2xl shadow-xl border border-border overflow-hidden">
-        <div className="p-6 pb-8">
-          {/* Badge */}
-          <div className="flex items-center gap-2 mb-4">
-            <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center">
-              <Clock className="w-3 h-3 text-primary" />
-            </div>
-            <span className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">
-              Quick 2-Step Process
-            </span>
-          </div>
+    <div className="min-h-screen bg-background font-sans">
+      {/* Scrollable content with bottom padding for sticky button */}
+      <div className="max-w-md mx-auto px-4 pt-8 pb-28">
 
-          {/* Headline */}
-          <h1 className="text-3xl font-bold text-primary mb-2 text-balance">
-            Unlock Your $750 Cash
+        {/* Logo */}
+        <div className="flex flex-col items-center mb-5">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-3">
+            <UtensilsCrossed className="w-8 h-8 text-primary" strokeWidth={2} />
+          </div>
+          <span className="text-sm font-extrabold tracking-widest text-primary uppercase">
+            Just Eat
+          </span>
+        </div>
+
+        {/* Title */}
+        <div className="text-center mb-6">
+          <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
+            Just Eat Reviewer Program
           </h1>
-          <p className="text-muted-foreground mb-6">Follow the steps below.</p>
-
-          {/* Progress Bar */}
-          <div className="relative mb-2">
-            <div className="h-1.5 bg-muted rounded-full overflow-hidden">
-              <div className="h-full w-2/3 bg-primary rounded-full" />
-            </div>
-          </div>
-
-          {/* Progress Dots */}
-          <div className="flex justify-center gap-2 mb-8">
-            <div className="w-2 h-2 rounded-full bg-primary" />
-            <div className="w-2 h-2 rounded-full bg-primary" />
-            <div className="w-2 h-2 rounded-full bg-muted" />
-          </div>
-
-          {/* Steps */}
-          <div className="space-y-4 mb-8">
-            {steps.map((step, index) => (
-              <div
-                key={index}
-                className="flex gap-4 p-4 rounded-xl bg-secondary/50 border border-border"
-              >
-                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/15 flex items-center justify-center">
-                  <step.icon className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-card-foreground mb-1">
-                    {step.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {step.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* CTA Button */}
-          <button
-            onClick={handleContinue}
-            className="w-full py-4 px-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-xl flex items-center justify-center gap-2 transition-colors"
-          >
-            Continue
-            <ChevronRight className="w-5 h-5" />
-          </button>
-
-          {/* Time Estimate */}
-          <p className="text-center text-sm text-muted-foreground mt-4">
-            Takes 30-45 minutes. The more deals you do The more you make!
+          <p className="text-muted-foreground text-sm">
+            Apply to become a Just Eat Reviewer.
           </p>
         </div>
 
-        {/* Disclaimer */}
-        <div className="px-6 pb-6">
-          <p className="text-xs text-muted-foreground text-center leading-relaxed">
-            By continuing, you agree to the promotion's terms. Availability may
-            vary by location. Completing required deals is necessary to qualify.
+        {/* Reward Banner */}
+        <div className="bg-primary rounded-2xl p-5 flex items-center justify-between mb-7 shadow-sm">
+          <div>
+            <p className="text-primary-foreground text-2xl font-extrabold leading-tight">
+              £750{" "}
+              <span className="font-semibold">Just Eat Credit</span>
+            </p>
+            <p className="text-primary-foreground/80 text-sm mt-0.5">
+              Just Eat Account Credit
+            </p>
+          </div>
+          <div className="w-11 h-11 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
+            <ShoppingCart className="w-6 h-6 text-white" />
+          </div>
+        </div>
+
+        {/* Application Process */}
+        <h2 className="text-lg font-extrabold text-foreground mb-3">
+          Application Process
+        </h2>
+
+        <div className="space-y-3 mb-7">
+          {steps.map((step) => (
+            <div
+              key={step.number}
+              className="bg-card rounded-2xl border border-border border-l-4 border-l-primary shadow-sm p-4 flex gap-4"
+            >
+              <div className="flex-shrink-0 w-9 h-9 rounded-full bg-primary flex items-center justify-center">
+                <span className="text-white text-sm font-bold">{step.number}</span>
+              </div>
+              <div>
+                <h3 className="font-bold text-foreground text-sm mb-0.5">
+                  {step.title}
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {step.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Program Details Card */}
+        <div className="bg-muted rounded-2xl border border-border p-5">
+          <div className="flex items-center gap-2 mb-4">
+            <HelpCircle className="w-4 h-4 text-muted-foreground" />
+            <span className="font-bold text-foreground text-sm">Program Details</span>
+          </div>
+
+          <h4 className="font-bold text-foreground text-sm mb-1">
+            What do I review?
+          </h4>
+          <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+            You may be asked to review specific takeaway dishes, ordering
+            experiences, and services from our partner restaurants.
+          </p>
+
+          <h4 className="font-bold text-foreground text-sm mb-1">
+            About this Offer
+          </h4>
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            RewardLeap is a trusted research partner, working with major food
+            delivery platforms to gather customer feedback. As part of our
+            current collaboration with Just Eat, participants are invited to
+            evaluate services and experiences in exchange for account credit —
+            including our £750 Just Eat Credit reward for qualifying
+            participants who complete all required steps.
           </p>
         </div>
       </div>
-    </main>
+
+      {/* Sticky CTA Button */}
+      <div className="fixed bottom-0 left-0 right-0 bg-background border-t border-border px-4 py-4">
+        <div className="max-w-md mx-auto">
+          <button
+            onClick={handleClaim}
+            className="w-full py-4 px-6 bg-secondary hover:opacity-90 text-secondary-foreground font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
+          >
+            Claim Just Eat Credit
+            <span className="text-lg leading-none">›</span>
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
