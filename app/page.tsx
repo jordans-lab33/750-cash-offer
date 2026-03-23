@@ -51,7 +51,7 @@ export default function JustEatPage() {
               alt="Just Eat logo"
               width={140}
               height={100}
-              className="object-contain"
+              className="object-contain bg-transparent"
               unoptimized
             />
           </div>
