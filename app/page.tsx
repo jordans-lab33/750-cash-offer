@@ -11,15 +11,8 @@ const REDIRECT_URL = "https://your-link-here.com";
 const steps = [
   {
     number: 1,
-    title: "Register as Reviewer",
-    description: (
-      <>
-        Enter your details to{" "}
-        <mark className="bg-orange-100 text-foreground rounded px-0.5">
-          create your reviewer profile.
-        </mark>
-      </>
-    ),
+    title: "Sign Up & Enter Basics",
+    description: "Enter your email + basic details so we can set up your reward profile.",
   },
   {
     number: 2,
