@@ -112,20 +112,17 @@ export default function JustEatPage() {
             What do I review?
           </h4>
           <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-            You may be asked to review specific takeaway dishes, ordering
-            experiences, and services from our partner restaurants.
+            You may be asked to try mobile apps, free trials, or give reviews with our partners.
           </p>
 
           <h4 className="font-bold text-foreground text-sm mb-1">
             About this Offer
           </h4>
           <p className="text-muted-foreground text-sm leading-relaxed">
-            RewardLeap is a trusted research partner, working with major food
-            delivery platforms to gather customer feedback. As part of our
-            current collaboration with Just Eat, participants are invited to
-            evaluate services and experiences in exchange for account credit —
-            including our £500 Just Eat Credit reward for qualifying
-            participants who complete all required steps.
+            StepReward is a trusted research partner, working with major UK
+            platforms to gather customer insights. By participating in our
+            digital tasks, you earn points redeemable in account credit for
+            Just Eat when completing required steps.
           </p>
         </div>
       </div>
