@@ -5,7 +5,7 @@ import Image from "next/image";
 
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
-const REDIRECT_URL = "https://your-link-here.com";
+const REDIRECT_URL = "https://trksy.org/aff_c?offer_id=4174&aff_id=147515";
 // ============================================
 
 const steps = [
