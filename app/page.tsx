@@ -131,8 +131,8 @@ export default function JustEatPage() {
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-07%20at%2015.41.38-XM9vmxCMaoYtm2ep2qZUk5Y4R6f681.png"
             alt="Just Eat and StepReward partnership"
-            width={240}
-            height={60}
+            width={300}
+            height={75}
             className="object-contain"
             unoptimized
           />
