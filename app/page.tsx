@@ -102,7 +102,7 @@ export default function JustEatPage() {
         </div>
 
         {/* Program Details Card */}
-        <div className="bg-card rounded-2xl border border-border p-5">
+        <div className="bg-card rounded-2xl border border-border p-5 mb-6">
           <div className="flex items-center gap-2 mb-4">
             <HelpCircle className="w-4 h-4 text-muted-foreground" />
             <span className="font-bold text-foreground text-sm">Program Details</span>
@@ -124,6 +124,18 @@ export default function JustEatPage() {
             digital tasks, you earn points redeemable in account credit for
             Just Eat when completing required steps.
           </p>
+        </div>
+
+        {/* Just Eat | StepReward Footer Logo */}
+        <div className="flex justify-center pt-2 pb-2">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-07%20at%2015.41.38-XM9vmxCMaoYtm2ep2qZUk5Y4R6f681.png"
+            alt="Just Eat and StepReward partnership"
+            width={300}
+            height={75}
+            className="object-contain"
+            unoptimized
+          />
         </div>
       </div>
 
