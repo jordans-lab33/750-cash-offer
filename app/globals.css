@@ -4,21 +4,21 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Uber Eats brand: bright lime green primary, light greyish-white background */
+  /* Uber Eats brand: darker green primary, light greyish-white background */
   --background: oklch(0.97 0 0);
   --foreground: oklch(0.18 0.02 250);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.18 0.02 250);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.18 0.02 250);
-  --primary: oklch(0.75 0.20 145);
-  --primary-foreground: oklch(0.15 0.02 250);
+  --primary: oklch(0.62 0.18 145);
+  --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.25 0.07 255);
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.98 0.002 240);
   --muted-foreground: oklch(0.48 0.02 250);
-  --accent: oklch(0.75 0.20 145);
-  --accent-foreground: oklch(0.15 0.02 250);
+  --accent: oklch(0.62 0.18 145);
+  --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.88 0.005 240);
