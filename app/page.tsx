@@ -23,7 +23,7 @@ const steps = [
   {
     number: 3,
     title: "Get Uber Eats Credit",
-    description: "Receive your £500 in Uber Eats credit instantly.",
+    description: "Receive your £750 in Uber Eats credit instantly.",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function UberEatsPage() {
               Unlock Uber Eats Rewards
             </h1>
             <p className="text-muted-foreground text-sm">
-              {"Here's how to claim your £500 in Uber Eats Giftcards"}
+              {"Here's how to claim your £750 in Uber Eats Giftcards"}
             </p>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function UberEatsPage() {
         {/* Uber Eats | StepReward Footer Logo */}
         <div className="flex justify-center pt-2 pb-2">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-07%20at%2015.41.38-XM9vmxCMaoYtm2ep2qZUk5Y4R6f681.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-09%20at%2023.04.51-loOmIL2z9YCqaZLk5nSgmiy6pBuxdm.png"
             alt="Uber Eats and StepReward partnership"
             width={300}
             height={75}
