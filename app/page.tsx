@@ -22,12 +22,12 @@ const steps = [
   },
   {
     number: 3,
-    title: "Get Just Eat Credit",
-    description: "Receive your £500 in Just Eat credit instantly.",
+    title: "Get Uber Eats Credit",
+    description: "Receive your £500 in Uber Eats credit instantly.",
   },
 ];
 
-export default function JustEatPage() {
+export default function UberEatsPage() {
   const handleClaim = () => {
     window.location.href = REDIRECT_URL;
   };
@@ -40,10 +40,10 @@ export default function JustEatPage() {
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2018.08.23-8DPctmT3n1JD6tCIKSB7KsSL1OWrOm.png"
-              alt="Just Eat logo"
-              width={180}
-              height={54}
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-09%20at%2022.14.14-V1AqAnR6c8CK6klOfRj9jN6YGF99Og.png"
+              alt="Uber Eats logo"
+              width={200}
+              height={60}
               className="object-contain bg-transparent"
               unoptimized
             />
@@ -52,10 +52,10 @@ export default function JustEatPage() {
           {/* Title */}
           <div className="text-center">
             <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
-              Unlock Just Eat Rewards
+              Unlock Uber Eats Rewards
             </h1>
             <p className="text-muted-foreground text-sm">
-              {"Here's how to claim your £500 in Just Eat Giftcards"}
+              {"Here's how to claim your £500 in Uber Eats Giftcards"}
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function JustEatPage() {
         <div className="mb-7 animate-float px-6">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-03-23%20at%2018.13.46-UsVoGT758IV35iq3xBfOkwjK7tzzVQ.png"
-            alt="£500 Just Eat Credit"
+            alt="£500 Uber Eats Credit"
             width={280}
             height={160}
             className="w-full object-contain rounded-3xl shadow-lg"
@@ -122,15 +122,15 @@ export default function JustEatPage() {
             StepReward is a trusted research partner, working with major UK
             platforms to gather customer insights. By participating in our
             digital tasks, you earn points redeemable in account credit for
-            Just Eat when completing required steps.
+            Uber Eats when completing required steps.
           </p>
         </div>
 
-        {/* Just Eat | StepReward Footer Logo */}
+        {/* Uber Eats | StepReward Footer Logo */}
         <div className="flex justify-center pt-2 pb-2">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-07%20at%2015.41.38-XM9vmxCMaoYtm2ep2qZUk5Y4R6f681.png"
-            alt="Just Eat and StepReward partnership"
+            alt="Uber Eats and StepReward partnership"
             width={300}
             height={75}
             className="object-contain"
@@ -146,7 +146,7 @@ export default function JustEatPage() {
             onClick={handleClaim}
             className="w-full py-4 px-6 bg-primary hover:opacity-90 text-primary-foreground font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
           >
-            Claim Just Eat Credit
+            Claim Uber Eats Credit
             <span className="text-lg leading-none">›</span>
           </button>
         </div>
