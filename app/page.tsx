@@ -22,12 +22,12 @@ const steps = [
   },
   {
     number: 3,
-    title: "Get Uber Eats Credit",
-    description: "Receive your £750 in Uber Eats credit instantly.",
+    title: "Get Boots Credit",
+    description: "Receive your £750 in Boots credit instantly.",
   },
 ];
 
-export default function UberEatsPage() {
+export default function BootsPage() {
   const handleClaim = () => {
     window.location.href = REDIRECT_URL;
   };
@@ -40,9 +40,9 @@ export default function UberEatsPage() {
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-09%20at%2022.14.14-V1AqAnR6c8CK6klOfRj9jN6YGF99Og.png"
-              alt="Uber Eats logo"
-              width={200}
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-17%20at%2017.29.02-Omiu1MUKpU5zvWU5j5Dg4oc7Ngc9EL.png"
+              alt="Boots logo"
+              width={160}
               height={60}
               className="object-contain bg-transparent"
               unoptimized
@@ -52,10 +52,10 @@ export default function UberEatsPage() {
           {/* Title */}
           <div className="text-center">
             <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
-              Unlock Uber Eats Rewards
+              Unlock Boots Rewards
             </h1>
             <p className="text-muted-foreground text-sm">
-              {"Here's how to claim your £750 in Uber Eats Giftcards"}
+              {"Here's how to claim your £750 in Boots Giftcards"}
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function UberEatsPage() {
         <div className="mb-7 animate-float px-6">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-09%20at%2022.57.46-nmsD39LGVrA38rWiF3FQLyIohSt7Fb.png"
-            alt="£750 Uber Eats Gift Card"
+            alt="£750 Boots Gift Card"
             width={280}
             height={160}
             className="w-full object-cover rounded-2xl shadow-lg"
@@ -122,15 +122,15 @@ export default function UberEatsPage() {
             StepReward is a trusted research partner, working with major UK
             platforms to gather customer insights. By participating in our
             digital tasks, you earn points redeemable in account credit for
-            Uber Eats when completing required steps.
+            Boots when completing required steps.
           </p>
         </div>
 
-        {/* Uber Eats | StepReward Footer Logo */}
+        {/* Boots | StepReward Footer Logo */}
         <div className="flex justify-center pt-2 pb-2">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-09%20at%2023.04.51-loOmIL2z9YCqaZLk5nSgmiy6pBuxdm.png"
-            alt="Uber Eats and StepReward partnership"
+            alt="Boots and StepReward partnership"
             width={300}
             height={75}
             className="object-contain"
@@ -146,7 +146,7 @@ export default function UberEatsPage() {
             onClick={handleClaim}
             className="w-full py-4 px-6 bg-primary hover:opacity-90 text-primary-foreground font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
           >
-            Claim Uber Eats Credit
+            Claim Boots Credit
             <span className="text-lg leading-none">›</span>
           </button>
         </div>
