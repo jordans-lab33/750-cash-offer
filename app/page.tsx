@@ -23,7 +23,7 @@ const steps = [
   {
     number: 3,
     title: "Get Boots Credit",
-    description: "Receive your £750 in Boots credit instantly.",
+    description: "Receive your £500 in Boots credit instantly.",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function BootsPage() {
               Unlock Boots Rewards
             </h1>
             <p className="text-muted-foreground text-sm">
-              {"Here's how to claim your £750 in Boots Giftcards"}
+              {"Here's how to claim your £500 in Boots Giftcards"}
             </p>
           </div>
         </div>
@@ -63,11 +63,11 @@ export default function BootsPage() {
 
       {/* Scrollable content with light grey background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
-        {/* Reward Banner - Uber Eats Gift Card */}
+        {/* Reward Banner - Boots Gift Card */}
         <div className="mb-7 animate-float px-6">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-09%20at%2022.57.46-nmsD39LGVrA38rWiF3FQLyIohSt7Fb.png"
-            alt="£750 Boots Gift Card"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-18%20at%2013.22.12-EOBR0UrPlvythR5iB5eE8GNURH6Lvx.png"
+            alt="£500 Boots Gift Card"
             width={280}
             height={160}
             className="w-full object-cover rounded-2xl shadow-lg"
@@ -129,7 +129,7 @@ export default function BootsPage() {
         {/* Boots | StepReward Footer Logo */}
         <div className="flex justify-center pt-2 pb-2">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-09%20at%2023.04.51-loOmIL2z9YCqaZLk5nSgmiy6pBuxdm.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-18%20at%2016.28.11-fIJy7WZB94aM3A1ocymRUmnhCGSIKN.png"
             alt="Boots and StepReward partnership"
             width={300}
             height={75}
