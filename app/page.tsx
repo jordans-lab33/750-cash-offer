@@ -5,7 +5,7 @@ import Image from "next/image";
 
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
-const REDIRECT_URL = "https://giftclick.org/aff_c?offer_id=1999&aff_id=147515";
+const REDIRECT_URL = "https://giftclick.org/aff_c?offer_id=4176&aff_id=147515";
 // ============================================
 
 const steps = [
