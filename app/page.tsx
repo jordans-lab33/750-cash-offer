@@ -84,9 +84,13 @@ export default function UltaBeautyPage() {
           {steps.map((step) => (
             <div
               key={step.number}
-              className="bg-card rounded-2xl border border-border border-l-4 border-l-primary shadow-sm p-4 flex gap-4"
+              className="bg-card rounded-2xl border border-border shadow-sm p-4 flex gap-4"
+              style={{ borderLeft: "4px solid #F8863E" }}
             >
-              <div className="flex-shrink-0 w-9 h-9 rounded-full bg-primary flex items-center justify-center">
+              <div
+                className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center"
+                style={{ background: "linear-gradient(135deg, #F8863E, #eeaec5)" }}
+              >
                 <span className="text-white text-sm font-bold">{step.number}</span>
               </div>
               <div>
@@ -119,7 +123,7 @@ export default function UltaBeautyPage() {
             About this Offer
           </h4>
           <p className="text-muted-foreground text-sm leading-relaxed">
-            StepReward is a trusted research partner, working with major UK
+            StepReward is a trusted research partner, working with major US
             platforms to gather customer insights. By participating in our
             digital tasks, you earn points redeemable in account credit for
             Ulta Beauty when completing required steps.
@@ -132,7 +136,8 @@ export default function UltaBeautyPage() {
         <div className="max-w-md mx-auto">
           <button
             onClick={handleClaim}
-            className="w-full py-4 px-6 bg-primary hover:opacity-90 text-primary-foreground font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
+            className="w-full py-4 px-6 hover:opacity-90 text-white font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
+            style={{ background: "linear-gradient(135deg, #F8863E, #eeaec5)" }}
           >
             Claim Ulta Beauty Credit
             <span className="text-lg leading-none">›</span>
