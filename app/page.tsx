@@ -1,6 +1,6 @@
 "use client";
 
-import { ShoppingCart, HelpCircle } from "lucide-react";
+import { HelpCircle } from "lucide-react";
 import Image from "next/image";
 
 // ============================================
@@ -22,12 +22,12 @@ const steps = [
   },
   {
     number: 3,
-    title: "Get Boots Credit",
-    description: "Receive your £500 in Boots credit instantly.",
+    title: "Get Ulta Beauty Credit",
+    description: "Receive your $500 in Ulta Beauty credit instantly.",
   },
 ];
 
-export default function BootsPage() {
+export default function UltaBeautyPage() {
   const handleClaim = () => {
     window.location.href = REDIRECT_URL;
   };
@@ -40,8 +40,8 @@ export default function BootsPage() {
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-17%20at%2017.29.02-Omiu1MUKpU5zvWU5j5Dg4oc7Ngc9EL.png"
-              alt="Boots logo"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-24%20at%2021.29.09-elhYH9vWYqMYciXr2nz2sskn2l5F9T.png"
+              alt="Ulta Beauty logo"
               width={160}
               height={60}
               className="object-contain bg-transparent"
@@ -52,10 +52,10 @@ export default function BootsPage() {
           {/* Title */}
           <div className="text-center">
             <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
-              Unlock Boots Rewards
+              Unlock Ulta Beauty Rewards
             </h1>
             <p className="text-muted-foreground text-sm">
-              {"Here's how to claim your £500 in Boots Giftcards"}
+              {"Here's how to claim your $500 in Ulta Beauty Giftcards"}
             </p>
           </div>
         </div>
@@ -63,11 +63,11 @@ export default function BootsPage() {
 
       {/* Scrollable content with light grey background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
-        {/* Reward Banner - Boots Gift Card */}
+        {/* Reward Banner - Ulta Beauty Gift Card */}
         <div className="mb-7 animate-float px-6">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-18%20at%2013.22.12-EOBR0UrPlvythR5iB5eE8GNURH6Lvx.png"
-            alt="£500 Boots Gift Card"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-24%20at%2021.43.42-sW3EInhiUI4EovKkALMZnoNprZUdVD.png"
+            alt="$500 Ulta Beauty Gift Card"
             width={280}
             height={160}
             className="w-full object-cover rounded-2xl shadow-lg"
@@ -102,7 +102,7 @@ export default function BootsPage() {
         </div>
 
         {/* Program Details Card */}
-        <div className="bg-card rounded-2xl border border-border p-5 mb-6">
+        <div className="bg-card rounded-2xl border border-border p-5">
           <div className="flex items-center gap-2 mb-4">
             <HelpCircle className="w-4 h-4 text-muted-foreground" />
             <span className="font-bold text-foreground text-sm">Program Details</span>
@@ -122,20 +122,8 @@ export default function BootsPage() {
             StepReward is a trusted research partner, working with major UK
             platforms to gather customer insights. By participating in our
             digital tasks, you earn points redeemable in account credit for
-            Boots when completing required steps.
+            Ulta Beauty when completing required steps.
           </p>
-        </div>
-
-        {/* Boots | StepReward Footer Logo */}
-        <div className="flex justify-center pt-2 pb-2">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-18%20at%2016.28.11-fIJy7WZB94aM3A1ocymRUmnhCGSIKN.png"
-            alt="Boots and StepReward partnership"
-            width={300}
-            height={75}
-            className="object-contain"
-            unoptimized
-          />
         </div>
       </div>
 
@@ -146,7 +134,7 @@ export default function BootsPage() {
             onClick={handleClaim}
             className="w-full py-4 px-6 bg-primary hover:opacity-90 text-primary-foreground font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
           >
-            Claim Boots Credit
+            Claim Ulta Beauty Credit
             <span className="text-lg leading-none">›</span>
           </button>
         </div>
