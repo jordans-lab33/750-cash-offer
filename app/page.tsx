@@ -133,10 +133,10 @@ export default function UltaBeautyPage() {
         {/* Ulta Beauty | StepReward Footer Section */}
         <div className="flex justify-center mb-4">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.17.25-vWOiK6JKGUYsKOBqlRtkVNfaJyDLUa.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.18.18-47pwOitxqHBh8MJzGMWCz3v1PsFjah.png"
             alt="Ulta Beauty and StepReward partnership"
-            width={320}
-            height={150}
+            width={300}
+            height={80}
             className="object-contain"
             unoptimized
           />
