@@ -133,25 +133,13 @@ export default function UltaBeautyPage() {
         {/* Ulta Beauty | StepReward Footer Section */}
         <div className="flex justify-center mb-4">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.07.51-egho0Wrew1aO2cPpLmh4BNeBIZAIWK.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.12.31-LnQvVQFGeIAO12ls1VT11cy6W4kymK.png"
             alt="Ulta Beauty and StepReward partnership"
             width={300}
-            height={90}
+            height={120}
             className="object-contain"
             unoptimized
           />
-        </div>
-
-        {/* Disclaimer Section */}
-        <div className="text-center mb-4">
-          <p className="text-muted-foreground text-xs leading-relaxed">
-            This promotion is independently managed by stepreward.com. Ulta Beauty
-            is not a direct sponsor or affiliate of this specific recruitment panel. All
-            trademarks, including the Ulta Beauty logo, are the property of their
-            respective owners. Participation is subject to the terms of the research
-            program and requires completion of selected sponsor-supported tasks.
-            Vouchers are provided upon successful validation of panel contributions.
-          </p>
         </div>
       </div>
 
