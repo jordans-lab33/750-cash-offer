@@ -106,7 +106,7 @@ export default function UltaBeautyPage() {
         </div>
 
         {/* Program Details Card */}
-        <div className="bg-card rounded-2xl border border-border p-5">
+        <div className="bg-card rounded-2xl border border-border p-5 mb-6">
           <div className="flex items-center gap-2 mb-4">
             <HelpCircle className="w-4 h-4 text-muted-foreground" />
             <span className="font-bold text-foreground text-sm">Program Details</span>
@@ -129,6 +129,18 @@ export default function UltaBeautyPage() {
             Ulta Beauty when completing required steps.
           </p>
         </div>
+
+        {/* Ulta Beauty | StepReward Footer Section */}
+        <div className="flex justify-center mb-4">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.18.18-47pwOitxqHBh8MJzGMWCz3v1PsFjah.png"
+            alt="Ulta Beauty and StepReward partnership"
+            width={300}
+            height={80}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
       </div>
 
       {/* Sticky CTA Button */}
@@ -136,7 +148,7 @@ export default function UltaBeautyPage() {
         <div className="max-w-md mx-auto">
           <button
             onClick={handleClaim}
-            className="w-full py-4 px-6 hover:opacity-90 text-white font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
+            className="w-full py-4 px-6 text-white font-bold text-base rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all duration-150 hover:opacity-90 active:scale-95 active:shadow-sm active:opacity-80"
             style={{ background: "linear-gradient(135deg, #F8863E, #eeaec5)" }}
           >
             Claim Ulta Beauty Credit
