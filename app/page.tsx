@@ -133,10 +133,10 @@ export default function UltaBeautyPage() {
         {/* Ulta Beauty | StepReward Footer Section */}
         <div className="flex justify-center mb-4">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-24%20at%2022.04.29-rnGCJpxpKJOZnkKbVAUYaFoKltMGH2.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.07.51-egho0Wrew1aO2cPpLmh4BNeBIZAIWK.png"
             alt="Ulta Beauty and StepReward partnership"
-            width={280}
-            height={80}
+            width={300}
+            height={90}
             className="object-contain"
             unoptimized
           />
@@ -160,7 +160,7 @@ export default function UltaBeautyPage() {
         <div className="max-w-md mx-auto">
           <button
             onClick={handleClaim}
-            className="w-full py-4 px-6 hover:opacity-90 text-white font-bold text-base rounded-2xl flex items-center justify-center gap-2 transition-opacity shadow-md"
+            className="w-full py-4 px-6 text-white font-bold text-base rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all duration-150 hover:opacity-90 active:scale-95 active:shadow-sm active:opacity-80"
             style={{ background: "linear-gradient(135deg, #F8863E, #eeaec5)" }}
           >
             Claim Ulta Beauty Credit
