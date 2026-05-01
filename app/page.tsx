@@ -106,7 +106,7 @@ export default function UltaBeautyPage() {
         </div>
 
         {/* Program Details Card */}
-        <div className="bg-card rounded-2xl border border-border p-5">
+        <div className="bg-card rounded-2xl border border-border p-5 mb-6">
           <div className="flex items-center gap-2 mb-4">
             <HelpCircle className="w-4 h-4 text-muted-foreground" />
             <span className="font-bold text-foreground text-sm">Program Details</span>
@@ -127,6 +127,30 @@ export default function UltaBeautyPage() {
             platforms to gather customer insights. By participating in our
             digital tasks, you earn points redeemable in account credit for
             Ulta Beauty when completing required steps.
+          </p>
+        </div>
+
+        {/* Ulta Beauty | StepReward Footer Section */}
+        <div className="flex justify-center mb-4">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-24%20at%2022.04.29-rnGCJpxpKJOZnkKbVAUYaFoKltMGH2.png"
+            alt="Ulta Beauty and StepReward partnership"
+            width={280}
+            height={80}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
+        {/* Disclaimer Section */}
+        <div className="text-center mb-4">
+          <p className="text-muted-foreground text-xs leading-relaxed">
+            This promotion is independently managed by stepreward.com. Ulta Beauty
+            is not a direct sponsor or affiliate of this specific recruitment panel. All
+            trademarks, including the Ulta Beauty logo, are the property of their
+            respective owners. Participation is subject to the terms of the research
+            program and requires completion of selected sponsor-supported tasks.
+            Vouchers are provided upon successful validation of panel contributions.
           </p>
         </div>
       </div>
