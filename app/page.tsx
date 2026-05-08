@@ -40,11 +40,11 @@ export default function WalmartPage() {
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.01.23-I7g4Df82aOHy6BDczyEFK3s94HHxyz.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.24.07-YutkEr5aDEKJTWFZW1HtTBJytXh13j.png"
               alt="Walmart logo"
               width={160}
               height={60}
-              className="object-contain brightness-0 invert"
+              className="object-contain"
               unoptimized
             />
           </div>
@@ -52,7 +52,7 @@ export default function WalmartPage() {
           {/* Title */}
           <div className="text-center">
             <h1 className="text-2xl font-extrabold text-white mb-1 text-balance">
-              Unlock Walmart Rewards
+              Claim Walmart Rewards
             </h1>
             <p className="text-white/80 text-sm">
               {"Here's how to claim your $750 in Walmart Giftcards"}
@@ -64,13 +64,13 @@ export default function WalmartPage() {
       {/* Scrollable content — white background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
         {/* Reward Banner - Walmart Gift Card */}
-        <div className="mb-7 animate-float px-6">
+        <div className="mb-7 px-6">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.01.04-8O2NWLrJc4WPitqYTfUxs3iCnEPhxF.png"
             alt="$750 Walmart Gift Card"
             width={280}
             height={160}
-            className="w-full object-cover rounded-2xl shadow-lg"
+            className="w-full object-contain rounded-2xl"
             unoptimized
           />
         </div>
