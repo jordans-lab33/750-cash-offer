@@ -33,9 +33,9 @@ export default function WalmartPage() {
   };
 
   return (
-    <div className="min-h-screen bg-muted font-sans">
-      {/* White background header section — shadow on bottom border */}
-      <div className="bg-white shadow-[0_4px_12px_0_rgba(0,0,0,0.08)]">
+    <div className="min-h-screen bg-white font-sans">
+      {/* Walmart blue header section */}
+      <div style={{ background: "#0b61cb" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
         <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
           <div className="flex justify-center mb-3">
@@ -44,24 +44,24 @@ export default function WalmartPage() {
               alt="Walmart logo"
               width={160}
               height={60}
-              className="object-contain bg-transparent"
+              className="object-contain brightness-0 invert"
               unoptimized
             />
           </div>
 
           {/* Title */}
           <div className="text-center">
-            <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
+            <h1 className="text-2xl font-extrabold text-white mb-1 text-balance">
               Unlock Walmart Rewards
             </h1>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-white/80 text-sm">
               {"Here's how to claim your $750 in Walmart Giftcards"}
             </p>
           </div>
         </div>
       </div>
 
-      {/* Scrollable content with light grey background */}
+      {/* Scrollable content — white background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
         {/* Reward Banner - Walmart Gift Card */}
         <div className="mb-7 animate-float px-6">
@@ -130,11 +130,11 @@ export default function WalmartPage() {
           </p>
         </div>
 
-        {/* Walmart | StepReward Footer Section */}
+        {/* Walmart | RewardLeap Footer Section */}
         <div className="flex justify-center mb-4">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.18.18-47pwOitxqHBh8MJzGMWCz3v1PsFjah.png"
-            alt="Walmart and StepReward partnership"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.13.35-cq6Bu4Y3x8mrPM3dHM7eCJMt3ca55K.png"
+            alt="Walmart and RewardLeap partnership"
             width={300}
             height={80}
             className="object-contain"
