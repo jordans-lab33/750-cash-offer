@@ -4,27 +4,26 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Ulta Beauty brand: orange #F8863E + pink #eeaec5, light greyish-white background */
+  /* Walmart brand: blue #0b61cb primary, yellow #ffc300 button, light greyish-white background */
   --background: oklch(0.97 0 0);
   --foreground: oklch(0.18 0.02 250);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.18 0.02 250);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.18 0.02 250);
-  --primary: oklch(0.72 0.16 47);
+  --primary: oklch(0.51 0.17 255);
   --primary-foreground: oklch(1 0 0);
-  --primary-pink: oklch(0.80 0.10 350);
   --secondary: oklch(0.25 0.07 255);
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.98 0.002 240);
   --muted-foreground: oklch(0.48 0.02 250);
-  --accent: oklch(0.72 0.16 47);
+  --accent: oklch(0.51 0.17 255);
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.88 0.005 240);
   --input: oklch(0.94 0.004 240);
-  --ring: oklch(0.72 0.16 47);
+  --ring: oklch(0.51 0.17 255);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);

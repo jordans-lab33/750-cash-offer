@@ -22,55 +22,55 @@ const steps = [
   },
   {
     number: 3,
-    title: "Get Ulta Beauty Credit",
-    description: "Receive your $500 in Ulta Beauty credit instantly.",
+    title: "Get Walmart Credit",
+    description: "Receive your $750 in Walmart credit instantly.",
   },
 ];
 
-export default function UltaBeautyPage() {
+export default function WalmartPage() {
   const handleClaim = () => {
     window.location.href = REDIRECT_URL;
   };
 
   return (
-    <div className="min-h-screen bg-muted font-sans">
-      {/* White background header section — shadow on bottom border */}
-      <div className="bg-white shadow-[0_4px_12px_0_rgba(0,0,0,0.08)]">
+    <div className="min-h-screen bg-white font-sans">
+      {/* Walmart blue header section */}
+      <div style={{ background: "#0b61cb" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
         <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-24%20at%2021.29.09-elhYH9vWYqMYciXr2nz2sskn2l5F9T.png"
-              alt="Ulta Beauty logo"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.24.07-YutkEr5aDEKJTWFZW1HtTBJytXh13j.png"
+              alt="Walmart logo"
               width={160}
               height={60}
-              className="object-contain bg-transparent"
+              className="object-contain"
               unoptimized
             />
           </div>
 
           {/* Title */}
           <div className="text-center">
-            <h1 className="text-2xl font-extrabold text-foreground mb-1 text-balance">
-              Unlock Ulta Beauty Rewards
+            <h1 className="text-2xl font-extrabold text-white mb-1 text-balance">
+              Claim Walmart Rewards
             </h1>
-            <p className="text-muted-foreground text-sm">
-              {"Here's how to claim your $500 in Ulta Beauty Giftcards"}
+            <p className="text-white/80 text-sm">
+              {"Here's how to claim your $750 in Walmart Giftcards"}
             </p>
           </div>
         </div>
       </div>
 
-      {/* Scrollable content with light grey background */}
+      {/* Scrollable content — white background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
-        {/* Reward Banner - Ulta Beauty Gift Card */}
-        <div className="mb-7 animate-float px-6">
+        {/* Reward Banner - Walmart Gift Card */}
+        <div className="mb-7 px-6">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-04-24%20at%2021.43.42-sW3EInhiUI4EovKkALMZnoNprZUdVD.png"
-            alt="$500 Ulta Beauty Gift Card"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.01.04-8O2NWLrJc4WPitqYTfUxs3iCnEPhxF.png"
+            alt="$750 Walmart Gift Card"
             width={280}
             height={160}
-            className="w-full object-cover rounded-2xl shadow-lg"
+            className="w-full object-contain rounded-2xl"
             unoptimized
           />
         </div>
@@ -85,11 +85,11 @@ export default function UltaBeautyPage() {
             <div
               key={step.number}
               className="bg-card rounded-2xl border border-border shadow-sm p-4 flex gap-4"
-              style={{ borderLeft: "4px solid #F8863E" }}
+              style={{ borderLeft: "4px solid #0b61cb" }}
             >
               <div
                 className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center"
-                style={{ background: "linear-gradient(135deg, #F8863E, #eeaec5)" }}
+                style={{ background: "#0b61cb" }}
               >
                 <span className="text-white text-sm font-bold">{step.number}</span>
               </div>
@@ -126,20 +126,32 @@ export default function UltaBeautyPage() {
             StepReward is a trusted research partner, working with major US
             platforms to gather customer insights. By participating in our
             digital tasks, you earn points redeemable in account credit for
-            Ulta Beauty when completing required steps.
+            Walmart when completing required steps.
           </p>
         </div>
 
-        {/* Ulta Beauty | StepReward Footer Section */}
+        {/* Walmart | RewardLeap Footer Section */}
         <div className="flex justify-center mb-4">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-01%20at%2019.18.18-47pwOitxqHBh8MJzGMWCz3v1PsFjah.png"
-            alt="Ulta Beauty and StepReward partnership"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.13.35-cq6Bu4Y3x8mrPM3dHM7eCJMt3ca55K.png"
+            alt="Walmart and RewardLeap partnership"
             width={300}
             height={80}
             className="object-contain"
             unoptimized
           />
+        </div>
+
+        {/* Disclaimer Text */}
+        <div className="text-center mb-4">
+          <p className="text-muted-foreground text-xs leading-relaxed">
+            This promotion is independently managed by stepreward.com. Walmart
+            is not a direct sponsor or affiliate of this specific recruitment panel. All
+            trademarks, including the Walmart logo, are the property of their
+            respective owners. Participation is subject to the terms of the research
+            program and requires completion of selected sponsor-supported tasks.
+            Vouchers are provided upon successful validation of panel contributions.
+          </p>
         </div>
       </div>
 
@@ -148,10 +160,10 @@ export default function UltaBeautyPage() {
         <div className="max-w-md mx-auto">
           <button
             onClick={handleClaim}
-            className="w-full py-4 px-6 text-white font-bold text-base rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all duration-150 hover:opacity-90 active:scale-95 active:shadow-sm active:opacity-80"
-            style={{ background: "linear-gradient(135deg, #F8863E, #eeaec5)" }}
+            className="w-full py-4 px-6 font-bold text-base rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all duration-150 hover:opacity-90 active:scale-95 active:shadow-sm active:opacity-80"
+            style={{ background: "#ffc300", color: "#0b61cb" }}
           >
-            Claim Ulta Beauty Credit
+            Claim Walmart Credit
             <span className="text-lg leading-none">›</span>
           </button>
         </div>
