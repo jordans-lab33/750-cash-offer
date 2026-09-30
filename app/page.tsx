@@ -40,7 +40,7 @@ export default function KrogerPage() {
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="/krogers-source.png"
+              src="/krogers-white-transparent.svg"
               alt="Kroger logo"
               width={300}
               height={128}
