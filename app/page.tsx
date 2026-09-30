@@ -34,31 +34,17 @@ export default function KrogerPage() {
 
   return (
     <div className="min-h-screen bg-white font-sans">
-      {/* Kroger's blue header section */}
-      <div style={{ background: "#1b58a1" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
-        <div className="max-w-md mx-auto px-4 pt-6 pb-5">
-          {/* Logo */}
-          <div className="flex justify-center mb-3">
-            <Image
-              src="/krogers-white-transparent.svg"
-              alt="Kroger logo"
-              width={300}
-              height={128}
-              className="object-contain"
-              unoptimized
-            />
-          </div>
-
-          {/* Title */}
-          <div className="text-center">
-            <h1 className="text-2xl font-extrabold text-white mb-1 text-balance">
-              Claim Kroger's Rewards
-            </h1>
-            <p className="text-white/80 text-sm">
-              {"Here's how to claim your $750 in Kroger's Giftcards"}
-            </p>
-          </div>
-        </div>
+      {/* Kroger hero banner */}
+      <div className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
+        <Image
+          src="/kroger-top-banner.png"
+          alt="Kroger — Claim Kroger Rewards. Here's how to claim your $750 in Kroger Gift Cards."
+          width={1100}
+          height={299}
+          className="h-auto w-full object-cover"
+          priority
+          unoptimized
+        />
       </div>
 
       {/* Scrollable content — white background */}
@@ -66,10 +52,10 @@ export default function KrogerPage() {
         {/* Reward Banner - Kroger's Gift Card */}
         <div className="mb-7 px-6">
           <Image
-            src="/krogers-gift-card.png"
-            alt="$750 Kroger's Gift Card"
-            width={280}
-            height={160}
+            src="/kroger-gift-card-final.png"
+            alt="$750 Kroger Gift Card with Gift Card Value"
+            width={800}
+            height={260}
             className="w-full object-contain rounded-2xl"
             unoptimized
           />
