@@ -22,26 +22,26 @@ const steps = [
   },
   {
     number: 3,
-    title: "Get Walmart Credit",
-    description: "Receive your $750 in Walmart credit instantly.",
+    title: "Get Kroger's Credit",
+    description: "Receive your $750 in Kroger's credit instantly.",
   },
 ];
 
-export default function WalmartPage() {
+export default function KrogerPage() {
   const handleClaim = () => {
     window.location.href = REDIRECT_URL;
   };
 
   return (
     <div className="min-h-screen bg-white font-sans">
-      {/* Walmart blue header section */}
-      <div style={{ background: "#0b61cb" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
+      {/* Kroger's blue header section */}
+      <div style={{ background: "#1b58a1" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
         <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.24.07-YutkEr5aDEKJTWFZW1HtTBJytXh13j.png"
-              alt="Walmart logo"
+              src="/krogers-logo.png"
+              alt="Kroger's logo"
               width={160}
               height={60}
               className="object-contain"
@@ -52,10 +52,10 @@ export default function WalmartPage() {
           {/* Title */}
           <div className="text-center">
             <h1 className="text-2xl font-extrabold text-white mb-1 text-balance">
-              Claim Walmart Rewards
+              Claim Kroger's Rewards
             </h1>
             <p className="text-white/80 text-sm">
-              {"Here's how to claim your $750 in Walmart Giftcards"}
+              {"Here's how to claim your $750 in Kroger's Giftcards"}
             </p>
           </div>
         </div>
@@ -63,11 +63,11 @@ export default function WalmartPage() {
 
       {/* Scrollable content — white background */}
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
-        {/* Reward Banner - Walmart Gift Card */}
+        {/* Reward Banner - Kroger's Gift Card */}
         <div className="mb-7 px-6">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.01.04-8O2NWLrJc4WPitqYTfUxs3iCnEPhxF.png"
-            alt="$750 Walmart Gift Card"
+            src="/krogers-gift-card.png"
+            alt="$750 Kroger's Gift Card"
             width={280}
             height={160}
             className="w-full object-contain rounded-2xl"
@@ -85,11 +85,11 @@ export default function WalmartPage() {
             <div
               key={step.number}
               className="bg-card rounded-2xl border border-border shadow-sm p-4 flex gap-4"
-              style={{ borderLeft: "4px solid #0b61cb" }}
+              style={{ borderLeft: "4px solid #1b58a1" }}
             >
               <div
                 className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center"
-                style={{ background: "#0b61cb" }}
+                style={{ background: "#1b58a1" }}
               >
                 <span className="text-white text-sm font-bold">{step.number}</span>
               </div>
@@ -126,15 +126,15 @@ export default function WalmartPage() {
             StepReward is a trusted research partner, working with major US
             platforms to gather customer insights. By participating in our
             digital tasks, you earn points redeemable in account credit for
-            Walmart when completing required steps.
+            Kroger's when completing required steps.
           </p>
         </div>
 
-        {/* Walmart | RewardLeap Footer Section */}
+        {/* Kroger's | RewardLeap Footer Section */}
         <div className="flex justify-center mb-4">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.13.35-cq6Bu4Y3x8mrPM3dHM7eCJMt3ca55K.png"
-            alt="Walmart and RewardLeap partnership"
+            src="/krogers-partnership.png"
+            alt="Kroger's and RewardLeap partnership"
             width={300}
             height={80}
             className="object-contain"
@@ -145,9 +145,9 @@ export default function WalmartPage() {
         {/* Disclaimer Text */}
         <div className="text-center mb-4">
           <p className="text-muted-foreground text-xs leading-relaxed">
-            This promotion is independently managed by stepreward.com. Walmart
+            This promotion is independently managed by stepreward.com. Kroger's
             is not a direct sponsor or affiliate of this specific recruitment panel. All
-            trademarks, including the Walmart logo, are the property of their
+            trademarks, including the Kroger's logo, are the property of their
             respective owners. Participation is subject to the terms of the research
             program and requires completion of selected sponsor-supported tasks.
             Vouchers are provided upon successful validation of panel contributions.
@@ -161,9 +161,9 @@ export default function WalmartPage() {
           <button
             onClick={handleClaim}
             className="w-full py-4 px-6 font-bold text-base rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all duration-150 hover:opacity-90 active:scale-95 active:shadow-sm active:opacity-80"
-            style={{ background: "#ffc300", color: "#0b61cb" }}
+            style={{ background: "#ffc300", color: "#1b58a1" }}
           >
-            Claim Walmart Credit
+            Claim Kroger's Credit
             <span className="text-lg leading-none">›</span>
           </button>
         </div>
