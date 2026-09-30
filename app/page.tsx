@@ -40,10 +40,10 @@ export default function KrogerPage() {
           {/* Logo */}
           <div className="flex justify-center mb-3">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-09-30%20at%2009.27.32-tmdKQKL4vSDUFJnvMxJYyfSjRelU7y.png"
+              src="/krogers-source.png"
               alt="Kroger logo"
-              width={240}
-              height={135}
+              width={300}
+              height={128}
               className="object-contain"
               unoptimized
             />

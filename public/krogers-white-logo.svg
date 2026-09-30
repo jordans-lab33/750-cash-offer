@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 946 405"><filter id="remove-blue" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="2 0 0 0 0  0 2 0 0 0  0 0 2 0 0  2 -1 0 0 0"/></filter><image href="/krogers-source.png" width="946" height="405" preserveAspectRatio="none" filter="url(#remove-blue)"/></svg>
