@@ -35,16 +35,18 @@ export default function KrogerPage() {
   return (
     <div className="min-h-screen bg-white font-sans">
       {/* Kroger hero banner */}
-      <div className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
-        <Image
-          src="/kroger-top-banner.png"
-          alt="Kroger — Claim Kroger Rewards. Here's how to claim your $750 in Kroger Gift Cards."
-          width={1100}
-          height={299}
-          className="h-auto w-full object-cover"
-          priority
-          unoptimized
-        />
+      <div className="mx-auto max-w-md px-4 pt-4">
+        <div className="overflow-hidden rounded-2xl shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
+          <Image
+            src="/kroger-top-banner.png"
+            alt="Kroger — Claim Kroger Rewards. Here's how to claim your $750 in Kroger Gift Cards."
+            width={1100}
+            height={299}
+            className="h-auto w-full object-cover"
+            priority
+            unoptimized
+          />
+        </div>
       </div>
 
       {/* Scrollable content — white background */}
