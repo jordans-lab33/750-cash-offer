@@ -18,12 +18,12 @@ const steps = [
     number: 2,
     title: "Complete Sponsored Deals",
     description:
-      "Complete 3-5 offers minimum. Each deal credits towards your total payout.",
+      "Complete 3-5 deals to start earning. Continue completing deals to increase total payout.",
   },
   {
     number: 3,
     title: "Get Walmart Credit",
-    description: "Receive your $750 in Walmart credit instantly.",
+    description: "Receive your Walmart credits as you earn — up to $750 total."
   },
 ];
 
