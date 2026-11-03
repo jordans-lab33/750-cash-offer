@@ -113,20 +113,24 @@ export default function WalmartPage() {
           </div>
 
           <h4 className="font-bold text-foreground text-sm mb-1">
-            What do I review?
+            What do I complete?
           </h4>
           <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-            You may be asked to try mobile apps, free trials, or give reviews with our partners.
+            Deals include completing surveys, free trials, and app downloads. You choose which ones from the available list of options.
           </p>
 
           <h4 className="font-bold text-foreground text-sm mb-1">
-            About this Offer
+            When will I receive my vouchers?
+          </h4>
+          <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+            Once your deals are verified, your Walmart voucher code will be delivered to your email within 24-48hrs.
+          </p>
+
+          <h4 className="font-bold text-foreground text-sm mb-1">
+            Do I need to finish all of the deals?
           </h4>
           <p className="text-muted-foreground text-sm leading-relaxed">
-            StepReward is a trusted research partner, working with major US
-            platforms to gather customer insights. By participating in our
-            digital tasks, you earn points redeemable in account credit for
-            Walmart when completing required steps.
+            No, you only need to complete the first 3-5 deals to claim a reward. Each deal completed after gets credited, up to a max of $750.
           </p>
         </div>
 
