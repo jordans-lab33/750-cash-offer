@@ -1,6 +1,7 @@
 "use client";
 
 import { HelpCircle } from "lucide-react";
+import Image from "next/image";
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
 const REDIRECT_URL = "https://giftclick.org/aff_c?offer_id=3004&aff_id=147515";
@@ -32,14 +33,19 @@ export default function WholeFoodsPage() {
 
   return (
     <div className="min-h-screen bg-white font-sans">
-      {/* Whole Foods blue header section */}
+      {/* Whole Foods green header section */}
       <div style={{ background: "#00563f" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
         <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
           <div className="flex justify-center mb-3">
-            <div className="text-white text-3xl font-extrabold tracking-tight" aria-label="Whole Foods logo">
-              Whole Foods
-            </div>
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-11-07%20at%2022.17.46-hu0WwlztUUuIzoQuqEz0DgZ55aNiss.png"
+              alt="Whole Foods Market logo"
+              width={998}
+              height={314}
+              className="h-auto w-full max-w-[320px] object-contain"
+              unoptimized
+            />
           </div>
 
           {/* Title */}
@@ -58,10 +64,14 @@ export default function WholeFoodsPage() {
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
         {/* Reward Banner - Whole Foods Gift Card */}
         <div className="mb-7 px-6">
-          <div className="rounded-2xl bg-[#00563f] px-6 py-8 text-center text-white shadow-sm" role="img" aria-label="$500 Whole Foods Gift Card">
-            <div className="text-4xl font-extrabold">$500</div>
-            <div className="mt-1 text-sm text-white/80">Whole Foods Gift Card</div>
-          </div>
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-08%20at%2011.01.04-8O2NWLrJc4WPitqYTfUxs3iCnEPhxF.png"
+            alt="$500 Whole Foods Gift Card"
+            width={280}
+            height={160}
+            className="w-full object-contain rounded-2xl"
+            unoptimized
+          />
         </div>
 
         {/* Application Process */}
@@ -149,7 +159,7 @@ export default function WholeFoodsPage() {
           <button
             onClick={handleClaim}
             className="w-full py-4 px-6 font-bold text-base rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all duration-150 hover:opacity-90 active:scale-95 active:shadow-sm active:opacity-80"
-            style={{ background: "#ffc300", color: "#00563f" }}
+            style={{ background: "#00563f", color: "#ffffff" }}
           >
             Claim Whole Foods Credit
             <span className="text-lg leading-none">›</span>
