@@ -27,7 +27,7 @@ const steps = [
   },
 ];
 
-export default function Whole FoodsPage() {
+export default function WholeFoodsPage() {
   const handleClaim = () => {
     window.location.href = REDIRECT_URL;
   };
