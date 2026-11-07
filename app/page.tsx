@@ -35,7 +35,7 @@ export default function WholeFoodsPage() {
   return (
     <div className="min-h-screen bg-white font-sans">
       {/* Whole Foods blue header section */}
-      <div style={{ background: "#006747" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
+      <div style={{ background: "#00563f" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
         <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
           <div className="flex justify-center mb-3">
@@ -85,11 +85,11 @@ export default function WholeFoodsPage() {
             <div
               key={step.number}
               className="bg-card rounded-2xl border border-border shadow-sm p-4 flex gap-4"
-              style={{ borderLeft: "4px solid #006747" }}
+              style={{ borderLeft: "4px solid #00563f" }}
             >
               <div
                 className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center"
-                style={{ background: "#006747" }}
+                style={{ background: "#00563f" }}
               >
                 <span className="text-white text-sm font-bold">{step.number}</span>
               </div>
@@ -165,7 +165,7 @@ export default function WholeFoodsPage() {
           <button
             onClick={handleClaim}
             className="w-full py-4 px-6 font-bold text-base rounded-2xl flex items-center justify-center gap-2 shadow-md transition-all duration-150 hover:opacity-90 active:scale-95 active:shadow-sm active:opacity-80"
-            style={{ background: "#ffc300", color: "#006747" }}
+            style={{ background: "#ffc300", color: "#00563f" }}
           >
             Claim Whole Foods Credit
             <span className="text-lg leading-none">›</span>

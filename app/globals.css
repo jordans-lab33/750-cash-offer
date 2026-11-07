@@ -4,26 +4,26 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Whole Foods brand: deep green #006747 primary, light greyish-white background */
+  /* Whole Foods brand: deep green #00563f primary, light greyish-white background */
   --background: oklch(0.97 0 0);
   --foreground: oklch(0.18 0.02 160);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.18 0.02 160);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.18 0.02 160);
-  --primary: oklch(0.39 0.12 160);
+  --primary: oklch(0.34 0.11 160);
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.25 0.07 160);
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.98 0.002 160);
   --muted-foreground: oklch(0.48 0.02 160);
-  --accent: oklch(0.39 0.12 160);
+  --accent: oklch(0.34 0.11 160);
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.88 0.005 160);
   --input: oklch(0.94 0.004 160);
-  --ring: oklch(0.39 0.12 160);
+  --ring: oklch(0.34 0.11 160);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
