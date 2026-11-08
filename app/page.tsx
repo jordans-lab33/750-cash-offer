@@ -43,7 +43,7 @@ export default function WholeFoodsPage() {
               alt="Whole Foods Market logo"
               width={998}
               height={298}
-              className="block h-auto w-full max-w-[300px] object-contain"
+              className="block h-auto w-full max-w-[270px] object-contain"
               unoptimized
             />
           </div>
@@ -84,11 +84,11 @@ export default function WholeFoodsPage() {
             <div
               key={step.number}
               className="bg-card rounded-2xl border border-border shadow-sm p-4 flex gap-4"
-              style={{ borderLeft: "4px solid #00563f" }}
+              style={{ borderLeft: "4px solid #167a5d" }}
             >
               <div
                 className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center"
-                style={{ background: "#00563f" }}
+                style={{ background: "#167a5d" }}
               >
                 <span className="text-white text-sm font-bold">{step.number}</span>
               </div>
