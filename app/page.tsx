@@ -1,6 +1,7 @@
 "use client";
 
 import { HelpCircle } from "lucide-react";
+import Image from "next/image";
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
 const REDIRECT_URL = "https://giftclick.org/aff_c?offer_id=3004&aff_id=147515";
@@ -33,12 +34,18 @@ export default function WholeFoodsPage() {
   return (
     <div className="min-h-screen bg-white font-sans">
       {/* Whole Foods green header section */}
-      <div style={{ background: "#00563f" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
+      <div style={{ background: "#1f4d38" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
         <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
-          <div className="flex flex-col items-center justify-center mb-3 text-white" aria-label="Whole Foods Market logo">
-            <div className="font-serif text-3xl font-bold tracking-[0.18em]">WHOLE FOODS</div>
-            <div className="mt-1 text-sm font-semibold tracking-[0.6em]">MARKET</div>
+          <div className="flex justify-center mb-3">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-11-08%20at%2014.38.40-nwyfmfuNWSSBmcJP7FgFZHbk6O03Lb.png"
+              alt="Whole Foods Market logo"
+              width={998}
+              height={298}
+              className="block h-auto w-full max-w-[998px] object-contain"
+              unoptimized
+            />
           </div>
 
           {/* Title */}
