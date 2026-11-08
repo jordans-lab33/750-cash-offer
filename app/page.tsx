@@ -43,7 +43,7 @@ export default function WholeFoodsPage() {
               alt="Whole Foods Market logo"
               width={998}
               height={298}
-              className="block h-auto w-full max-w-[998px] object-contain"
+              className="block h-auto w-full max-w-[300px] object-contain"
               unoptimized
             />
           </div>
@@ -64,10 +64,14 @@ export default function WholeFoodsPage() {
       <div className="max-w-md mx-auto px-4 pt-8 pb-28">
         {/* Reward Banner - Whole Foods Gift Card */}
         <div className="mb-7 px-6">
-          <div className="rounded-2xl bg-[#00563f] px-6 py-8 text-center text-white shadow-sm" role="img" aria-label="$500 Whole Foods Gift Card">
-            <div className="text-4xl font-extrabold">$500</div>
-            <div className="mt-1 text-sm text-white/80">Whole Foods Gift Card</div>
-          </div>
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-11-08%20at%2015.35.33-pH5OqIqtKltCFxVaWrjvA65SFSwkKT.png"
+            alt="$500 Whole Foods Gift Card"
+            width={736}
+            height={261}
+            className="h-auto w-full rounded-2xl object-contain"
+            unoptimized
+          />
         </div>
 
         {/* Application Process */}
