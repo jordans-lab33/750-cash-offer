@@ -1,6 +1,7 @@
 "use client";
 
 import { HelpCircle } from "lucide-react";
+import Image from "next/image";
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
 const REDIRECT_URL = "https://giftclick.org/aff_c?offer_id=3004&aff_id=147515";
@@ -36,15 +37,21 @@ export default function WholeFoodsPage() {
       <div style={{ background: "#00563f" }} className="shadow-[0_4px_12px_0_rgba(0,0,0,0.15)]">
         <div className="max-w-md mx-auto px-4 pt-6 pb-5">
           {/* Logo */}
-          <div className="flex flex-col items-center justify-center mb-3 text-white" aria-label="Whole Foods Market logo">
-            <div className="font-serif text-3xl font-bold tracking-[0.18em]">WHOLE FOODS</div>
-            <div className="mt-1 text-sm font-semibold tracking-[0.6em]">MARKET</div>
+          <div className="flex justify-center mb-3">
+            <Image
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-11-08%20at%2014.38.40-nwyfmfuNWSSBmcJP7FgFZHbk6O03Lb.png"
+              alt="Whole Foods Market logo"
+              width={998}
+              height={298}
+              className="h-auto w-full max-w-[320px] object-contain"
+              unoptimized
+            />
           </div>
 
           {/* Title */}
           <div className="text-center">
             <h1 className="text-2xl font-extrabold text-white mb-1 text-balance">
-              Claim Whole Foods Rewards
+              Claim Your Rewards
             </h1>
             <p className="text-white/80 text-sm">
               {"Here's how to claim your $500 in Whole Foods Giftcards"}
@@ -120,13 +127,6 @@ export default function WholeFoodsPage() {
           <p className="text-muted-foreground text-sm leading-relaxed">
             No, you only need to complete the first 3-5 deals to claim a reward. Each deal completed after gets credited, up to a max of $500.
           </p>
-        </div>
-
-        {/* Whole Foods | RewardLeap Footer Section */}
-        <div className="flex justify-center mb-4">
-          <div className="rounded-xl border border-border bg-card px-6 py-3 text-center text-sm font-bold text-[#00563f]">
-            Whole Foods <span className="text-muted-foreground">×</span> RewardLeap
-          </div>
         </div>
 
         {/* Disclaimer Text */}
