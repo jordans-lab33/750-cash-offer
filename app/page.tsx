@@ -4,7 +4,7 @@ import { HelpCircle } from "lucide-react";
 import Image from "next/image";
 // ============================================
 // CUSTOMIZE YOUR REDIRECT LINK HERE:
-const REDIRECT_URL = "https://giftclick.org/aff_c?offer_id=3004&aff_id=147515";
+const REDIRECT_URL = "https://giftclick.org/?offer_id=607&aff_id=147515";
 // ============================================
 
 const steps = [
